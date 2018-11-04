@@ -11,6 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "publish:dev": "yarn build && cp -R build/. aws/dev/build && cd aws/dev  && amplify publish ",
+    "publish:prod": "yarn build && cp -R build/. aws/prod/build && cd aws/prod  && amplify publish ",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

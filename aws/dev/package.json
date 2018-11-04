@@ -1,0 +1,18 @@
+{
+  "name": "amplify-stagin-dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "echo 'start'",
+    "build": "echo 'build'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

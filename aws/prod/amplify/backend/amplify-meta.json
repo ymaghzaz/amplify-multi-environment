@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "prod-20181104133349-authRole",
+			"UnauthRoleArn": "arn:aws:iam::382857135464:role/prod-20181104133349-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::382857135464:role/prod-20181104133349-authRole",
+			"Region": "eu-west-1",
+			"DeploymentBucketName": "prod-20181104133349-deployment",
+			"UnauthRoleName": "prod-20181104133349-unauthRole",
+			"StackName": "prod-20181104133349",
+			"StackId": "arn:aws:cloudformation:eu-west-1:382857135464:stack/prod-20181104133349/e1ab9a30-e02d-11e8-b5b3-50a686326636"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/prod-20181104133349-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-11-04T12:38:06.157Z",
+			"output": {
+				"S3BucketSecureURL": "https://amplify-staging-paris-prod.s3.amazonaws.com",
+				"WebsiteURL": "http://amplify-staging-paris-prod.s3-website-eu-west-1.amazonaws.com",
+				"Region": "eu-west-1",
+				"HostingBucketName": "amplify-staging-paris-prod"
+			},
+			"lastPushDirHash": "yPUNZZIk8OV2EMJ80ceIj18W/AU="
+		}
+	}
+}

@@ -5,11 +5,21 @@
 /.pnp
 .pnp.js
 
+aws-exports.js
+./aws-exports.js
+*/aws-exports.js
+/src/aws-exports.js
+/aws/prod/src/aws-exports.js
+/aws/dev/src/aws-exports.js
+aws-exports.*
+
 # testing
 /coverage
 
 # production
 /build
+/aws/prod/build/build
+/aws/dev/build/build
 
 # misc
 .DS_Store
